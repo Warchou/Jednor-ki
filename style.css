@@ -1,0 +1,48 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#pola{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 50px;
+    width: 1000px;
+    margin: 50px auto;
+    grid-auto-flow: column;
+}
+.pole{
+    height: 300px;
+    background-color: gray;
+}
+#input{
+    margin: auto;
+    width: fit-content;
+    position: relative;
+}
+#inputMsg{
+    position: absolute;
+    top: -25;
+    left: 5;
+    color: red;
+    display: none;
+}
+#inputText{
+    font-size: 35px;
+    padding: 5px;
+    margin-right: 5px;
+}
+#inputButton{
+    font-size: 35px;
+    padding: 5px;
+    min-width: 120px;
+}
+#info{
+    margin: 50px 150px;
+    font-size: 25px;
+}
+#info span{
+    display: block;
+    margin-bottom: 10px;
+}
